@@ -247,6 +247,31 @@ nav ul li a:hover {
     line-height: 1.7;
 }
 
+
+
+/* project */
+
+.myProject-img{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.myProject-button button{
+    background-color: #00adb5;
+    padding: 20px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;   
+    color: #fff;
+}
+.myProject-holder{
+    display: flex;
+    flex-direction: column;
+    gap: 30px   ;
+}
 /* Footer */
 footer {
     background: #222;
@@ -285,3 +310,5 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+
+
